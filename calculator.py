@@ -7,7 +7,7 @@ root = Tk()
 #defining title of the project
 root.title("Calculator")
 
-e = Entry(root, text= " " ,relief=SUNKEN, width=20, borderwidth=12,font=("Verdana", 15), bg="gray70", insertwidth=4, justify=CENTER)
+e = Entry(root, text= " " ,relief=SUNKEN, width=20, borderwidth=12,font=("Verdana", 15), bg="gray70",  justify=CENTER)
 e.grid(row=0, column=0,columnspan=5, ipady=13)
 # icon images
 root.iconbitmap('D:/emoji.ico')
